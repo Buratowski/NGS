@@ -4,6 +4,9 @@
 #   Parameters are set for S.cerevisiae, for other species change the name/size of Chromosomes
 #   BDG file should not have any header
 #   Chromosome names are converted from I to chrI ...
+#Running instructions:
+#   BDGtoWIG.py -i <name of BDG file>
+#Creates WIG file with name+.wig
 
 import numpy as np
 from collections import OrderedDict
